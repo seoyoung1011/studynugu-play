@@ -2,7 +2,7 @@ const uuid = require('uuid').v4;
 const _ = require('lodash');
 const express = require('express');
 var app = express();
-const sendData = require('./index.js');
+const sendData = require('android.js');
 
 class NUGURequest{
     constructor(httpReq){
