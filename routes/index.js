@@ -1,6 +1,6 @@
 const express = require('express');
 const nugu = require('../nugu');
-const android = require('android.js');
+const android = require('../android.js');
 const router = express.Router();
 
 router.post('/nugu/startTimer', nugu);
