@@ -11,6 +11,7 @@ io.on('connection', function(socket){
 });
 
 function sendData(command){
+	console.log('sendData');
     io.on("connection", (socket) => {
         console.log('SocketID: ' + socket.id)
         if(command == 'startTimer'){
